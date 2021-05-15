@@ -9,7 +9,7 @@
   --contact-footer: rgba(255, 255, 255, 0.6);
   --logo2-footer: rgba(255, 255, 255, 1);
   --button-sorting: #f5f4fa;
-  --button-focus: #188CE8;
+  --button-focus: #188ce8;
   --box-shadow: rgba(0, 0, 0, 0.15);
 }
 body {
@@ -25,8 +25,7 @@ body {
 h1,
 h2,
 h3,
-ul
-p {
+ul p {
   margin: 0;
   padding: 0;
 }
@@ -51,7 +50,7 @@ img {
 }
 .current-page.link,
 .nav-item.link,
-.contact.link, 
+.contact.link,
 .contact-footer.link {
   text-decoration: none;
 }
@@ -84,7 +83,6 @@ img {
 .nav-item:hover,
 .nav-item:focus {
   color: var(--accent-color);
-
 }
 /*flex-elements*/
 .header-site {
@@ -93,14 +91,14 @@ img {
   padding-bottom: 25px;
   border-bottom: 1px;
 }
-.header-flex{
+.header-flex {
   display: flex;
   justify-content: space-between;
 }
-.nav-flex{
+.nav-flex {
   display: flex;
 }
-.menu-flex{
+.menu-flex {
   display: flex;
   flex-direction: row;
   margin-left: 93px;
@@ -109,7 +107,7 @@ img {
   margin-right: 50px;
 }
 
-.contact-flex{
+.contact-flex {
   display: flex;
   width: 310px;
 }
@@ -197,7 +195,6 @@ img {
 }
 .advantages-flex {
   display: flex;
- 
 }
 .advantages-item:not(:first-child) {
   margin-left: 30px;
@@ -213,7 +210,7 @@ img {
 .overview-image {
   margin-left: 30;
 }
-.team-section{
+.team-section {
   background-color: var(--button-sorting);
 }
 .company-team {
@@ -239,7 +236,8 @@ img {
   padding-left: 67px;
   padding-right: 66px;
   padding-bottom: 30px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 /* End of sections */
@@ -254,7 +252,8 @@ img {
   height: 38px;
   left: 712px;
   top: 174px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   border: none;
   padding: 6px 22px;
@@ -279,9 +278,9 @@ img {
   margin-bottom: 4px;
 }
 .portfolio-flex {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .portfolio-description {
   padding-bottom: 20px;
