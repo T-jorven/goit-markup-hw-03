@@ -38,6 +38,7 @@ img {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
 }
 .list {
   list-style: none;
@@ -62,6 +63,7 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
+  
 }
 .logo-web {
   color: var(--accent-color);
@@ -90,6 +92,7 @@ img {
   background-color: var(--clear-white);
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px;
 }
 .header-flex{
   display: flex;
@@ -145,7 +148,7 @@ img {
   text-transform: uppercase;
 }
 .hero-box {
-   width: 770px;
+  width: 770px;
 }
 .button {
   cursor: pointer;
@@ -172,6 +175,7 @@ img {
 .title {
   color: var(--title-text-color);
   margin-bottom: 50px;
+  text-align: center;
 }
 .advantages-section {
   padding-top: 95px;
@@ -226,8 +230,14 @@ img {
   color: var(--title-text-color);
   margin-bottom: 10px;
 }
-.team-photo {
-  margin-bottom: 30px;
+.team-card {
+  background: var(--clear-white);
+  padding-top: 30px;
+  padding-left: 67px;
+  padding-right: 66px;
+  padding-bottom: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 /* End of sections */
 
@@ -270,8 +280,8 @@ img {
    justify-content: space-between;
 }
 .portfolio-main{
-  margin-top: 95px;
-  margin-bottom: 95px;
+  padding-top: 95px;
+  padding-bottom: 95px;
 }
 .portfolio-description {
   padding-bottom: 20px;
