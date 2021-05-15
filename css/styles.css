@@ -63,7 +63,6 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-  
 }
 .logo-web {
   color: var(--accent-color);
@@ -96,12 +95,15 @@ img {
 }
 .header-flex{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .nav-flex{
   display: flex;
-  width: 294px;
+}
+.menu-flex{
+  display: flex;
   flex-direction: row;
+  margin-left: 93px;
 }
 .menu-list:not(:last-child) {
   margin-right: 50px;
@@ -177,7 +179,7 @@ img {
   margin-bottom: 50px;
   text-align: center;
 }
-.advantages-section {
+.paddings {
   padding-top: 95px;
   padding-bottom: 95px;
 }
@@ -197,7 +199,7 @@ img {
   display: flex;
  
 }
-.advantages-item {
+.advantages-item:not(:first-child) {
   margin-left: 30px;
 }
 .overview-section {
@@ -213,15 +215,16 @@ img {
 }
 .team-section{
   background-color: var(--button-sorting);
-  padding-top: 95px;
-  padding-bottom: 95px;
 }
 .company-team {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
 }
-.company-team:not(:nth-child(4)) {
-  margin-right: 30px;
+.team-item {
+  margin-left: 30px;
+  margin-top: 30px;
 }
 .team-heading {
   font-size: 16px;
@@ -278,10 +281,6 @@ img {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
-}
-.portfolio-main{
-  padding-top: 95px;
-  padding-bottom: 95px;
 }
 .portfolio-description {
   padding-bottom: 20px;
