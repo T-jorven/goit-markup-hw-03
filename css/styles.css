@@ -11,6 +11,7 @@
   --button-sorting: #f5f4fa;
   --button-focus: #188ce8;
   --box-shadow: rgba(0, 0, 0, 0.15);
+  --portfolio-card-border: #EEEEEE;
 }
 body {
   background-color: var(--clear-white);
@@ -181,10 +182,6 @@ img {
   padding-top: 95px;
   padding-bottom: 95px;
 }
-.advantages {
-  padding-top: 95px;
-  padding-bottom: 95px;
-}
 .advantages-heading {
   font-weight: 700;
   line-height: 1.17;
@@ -262,6 +259,9 @@ img {
   border: none;
   padding: 6px 22px;
 }
+.button-item:not(:first-child) {
+  margin-left: 8px;
+}
 .button-sorting:focus,
 .button-sorting:hover {
   color: var(--button-sorting);
@@ -270,7 +270,7 @@ img {
 .sorting-flex {
   display: flex;
   justify-content: center;
-  margin-bottom: 35px;
+  margin-bottom: 50px;
 }
 .portfolio-title {
   color: var(--title-text-color);
@@ -278,7 +278,6 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding-top: 20px;
   margin-bottom: 4px;
 }
 .portfolio-flex {
@@ -286,11 +285,17 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.portfolio-description {
-  padding-bottom: 20px;
-}
 .portfolio-item {
   margin-bottom: 30px;
+}
+.portfolio-card {
+  background: var(--clear-white);
+  border: 1px solid var(--portfolio-card-border);
+  box-sizing: border-box;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 /* End of portfolio page */
 /* footer */
