@@ -12,6 +12,7 @@
   --button-focus: #188ce8;
   --box-shadow: rgba(0, 0, 0, 0.15);
   --portfolio-card-border: #EEEEEE;
+  --header-border: #ECECEC;
 }
 body {
   background-color: var(--clear-white);
@@ -63,6 +64,7 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
+  margin-right: 93px;
 }
 .logo-web {
   color: var(--accent-color);
@@ -90,7 +92,7 @@ img {
   background-color: var(--clear-white);
   padding-top: 24px;
   padding-bottom: 25px;
-  border-bottom: 1px;
+  border-bottom: 1px solid var(--header-border);
 }
 .header-flex {
   display: flex;
@@ -102,7 +104,6 @@ img {
 .menu-flex {
   display: flex;
   flex-direction: row;
-  margin-left: 93px;
 }
 .menu-list:not(:last-child) {
   margin-right: 50px;
@@ -111,6 +112,7 @@ img {
 .contact-flex {
   display: flex;
   width: 310px;
+  margin-left: 331px;
 }
 .contact-flex-item:not(:last-child) {
   margin-right: 50px;
@@ -157,15 +159,13 @@ img {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.8;
-  display: flex;
   letter-spacing: 0.06em;
   color: var(--clear-white);
   padding: 10px 32px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px var(--box-shadow);
-  display: inline-block;
   min-width: 200px;
-  height: 50px;
+  border:none;
 }
 .button:focus,
 .button:hover {
@@ -177,13 +177,14 @@ img {
   color: var(--title-text-color);
   margin-bottom: 50px;
   text-align: center;
+  font-size: 36px;
 }
 .paddings {
   padding-top: 95px;
   padding-bottom: 95px;
 }
 .advantages-heading {
-  font-weight: 700;
+  text-transform: uppercase;
   line-height: 1.17;
   color: var(--title-text-color);
   margin-bottom: 10px;
@@ -205,11 +206,12 @@ img {
 }
 .overview-flex {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  margin-left: -30px;
+  margin-top: -30px;
 }
-.overview-image {
-  margin-left: 30;
+.overview-image{
+  margin-left: 30px;
+  margin-top: 30px;
 }
 .team-section {
   background-color: var(--button-sorting);
@@ -247,11 +249,8 @@ img {
 .button-sorting {
   color: var(--title-text-color);
   background-color: var(--button-sorting);
-  display: inline-block;
   cursor: pointer;
   height: 38px;
-  left: 712px;
-  top: 174px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
